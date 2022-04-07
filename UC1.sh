@@ -25,3 +25,9 @@ echo "Result3:" ${res[Result3]}
 echo "Keys:" ${!res[@]}
 echo "Values:" ${res[@]}
 
+count=0;
+arr[((count++))]=${res[@]};
+
+
+echo ${arr[@]};
+
