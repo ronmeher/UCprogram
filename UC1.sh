@@ -31,3 +31,7 @@ arr[((count++))]=${res[@]};
 
 echo ${arr[@]};
 
+echo "Descending order: ${arr[0]} ${arr[1]} ${arr[2]} ${arr[33]}"
+
+
+
